@@ -3,7 +3,7 @@ import "./App.css";
 import { useState } from "react";
 
 function Button(props) {
-  // const clickHandler = () => setCounter(counter + 1);
+  // const clickHandler = () => setCounter(counter + 1) ;
   return <button onClick={props.incrementCounter}>+1</button>;
 }
 
